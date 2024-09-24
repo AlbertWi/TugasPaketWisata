@@ -13,5 +13,18 @@
             <form action="confirm.php" method="POST">
                 <input type="hidden" name="package_name" value="<?= $package_name ?>">
                 <input type="hidden" name="package_price" value="<?= $package_price ?>">
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="date">Departure Date:</label>
+                <input type="date" id="date" name="date" required>
+
 </body>
 </html>
