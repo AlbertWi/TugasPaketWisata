@@ -17,5 +17,10 @@ $package_name = $_POST['package_name'];
         <p>Thank you, <span class="highlight"><?= htmlspecialchars($name) ?></span>, for booking the <strong><?= htmlspecialchars($package_name) ?></strong> travel package.</p>
         <p>The booking details will be sent to your email: <strong><?= htmlspecialchars($email) ?></strong>.</p>
     </div>
+
+    <div class="confirmation-info">
+            <p>Total amount to be paid:</p>
+            <p class="price">Rp<?= number_format($package_price * $people_count) ?></p>
+        </div>
 </body>
 </html>
