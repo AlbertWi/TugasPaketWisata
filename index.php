@@ -23,16 +23,20 @@ $destinations = [
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>WanderLao - Discover China's Wonders</title>
+    
 </head>
 <body>
-<header class="hero">
+    <header class="hero">
         <div class="hero-content">
             <h1>Welcome to WanderLao</h1>
             <p>Discover the Wonders of China</p>
             <button class="cta-btn" onclick="scrollToDestinations()">Explore Packages</button>
         </div>
     </header>
+
+
     <section class="popular-destinations" id="destinations">
         <h2>Popular Destinations</h2>
         <div class="destination-list">
@@ -59,7 +63,6 @@ $destinations = [
     </script>
 </body>
 </html>
-
 <style>
     body {
     font-family: 'Noto Sans', sans-serif;
