@@ -1,0 +1,420 @@
+
+
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #b71c1c;  
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+}
+
+h2 {
+    color: #b71c1c;
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.season-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.season-section {
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.paket-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.paket-item {
+    background-color: #fff;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.paket-item:hover {
+    transform: translateY(-10px);
+}
+
+p {
+    color: #777;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b71c1c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #d32f2f;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+/* Container utama */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.booking-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    border-left: 10px solid #d32f2f;
+}
+
+.booking-form h1 {
+    font-size: 24px;
+    color: #d32f2f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.booking-form .paket-detail {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+
+.booking-form label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.booking-form input, 
+.booking-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.booking-form input[type="date"],
+.booking-form input[type="tel"],
+.booking-form input[type="number"] {
+    padding: 8px 12px;
+}
+
+.booking-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.booking-form .btn {
+    background-color: #d32f2f;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.booking-form .btn:hover {
+    background-color: #b71c1c;
+}
+
+/* Button styling */
+button {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Tambahkan animasi hover untuk input */
+.booking-form input:hover,
+.booking-form textarea:hover {
+    border-color: #d32f2f;
+}
+
+/* Styling untuk responsif */
+@media (max-width: 768px) {
+    .booking-form {
+        width: 100%;
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .booking-form h1 {
+        font-size: 22px;
+    }
+
+    .booking-form input,
+    .booking-form textarea {
+        font-size: 14px;
+    }
+
+    .booking-form .btn {
+        font-size: 16px;
+    }
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Body styling */
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Container utama */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Judul halaman */
+h1 {
+    font-size: 32px;
+    color: #d32f2f;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Paragraf dalam kontainer */
+p {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Text yang di-highlight (nama dan email) */
+.highlight {
+    font-weight: bold;
+    color: #d32f2f;
+}
+
+/* Kontainer untuk informasi konfirmasi */
+.confirmation-info {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styling total harga */
+.price {
+    font-size: 24px;
+    color: #b71c1c;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Styling footer */
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #777;
+}
+
+footer a {
+    color: #d32f2f;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design untuk mobile */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .confirmation-info .price {
+        font-size: 22px;
+    }
+}
+
+/* CSS Global Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('https://i.pinimg.com/originals/96/a6/63/96a66353983a9936e0f9348716366da5.jpg'); /* Gambar background */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Transparansi header */
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #ffffff; /* Warna teks */
+}
+
+/* Section Season Styling */
+.season-list {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Latar belakang semi-transparan */
+    border-radius: 10px;
+}
+
+.season-section {
+    margin-bottom: 40px;
+}
+
+.season-section h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.paket-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.paket-item {
+    background-color: #fff;
+    color: #333;
+    width: 280px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.paket-item:hover {
+    transform: translateY(-10px);
+}
+
+.paket-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.paket-item h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.paket-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff4a3d;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .paket-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Overlay Background for Text */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparansi untuk membuat teks lebih terbaca */
+    padding: 20px;
+}
+
