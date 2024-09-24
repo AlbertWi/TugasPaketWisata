@@ -2,6 +2,8 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $package_name = $_POST['package_name'];
+$package_price = $_POST['package_price'];
+$people_count = $_POST['people_count'];
 ?>
 
 <!DOCTYPE html>
@@ -22,5 +24,9 @@ $package_name = $_POST['package_name'];
             <p>Total amount to be paid:</p>
             <p class="price">Rp<?= number_format($package_price * $people_count) ?></p>
         </div>
+
+        <footer>
+            <p>If you have any questions, please contact <a href="mailto:support@wisata.com">support@wisata.com</a></p>
+        </footer>
 </body>
 </html>
